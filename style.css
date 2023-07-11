@@ -1,0 +1,169 @@
+:root {
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+header {
+  background: lightgray;
+  padding: 2.4rem 2.4rem 0;
+}
+
+.boxMenu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.6rem;
+  list-style: none;
+}
+
+.ContainerLogo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 3.2rem;
+}
+
+.boxLogo {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.ourServicesContainer {
+  padding: 3.2rem;
+}
+
+.ourServicesContainer h2 {
+  text-align: center;
+}
+
+.cardsOurServices {
+  margin-top: 3.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 4.8rem;
+}
+
+.cardOurServices {
+  width: 24.0rem;
+}
+
+.cardOurServices img {
+  width: 24.0rem;
+}
+
+.whyChooseUsContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: lightgrey;
+  padding: 3.2rem;
+}
+
+.boxWhyChooseUs {
+  flex: 1;
+}
+
+.cardsWhyChooseUs {
+  margin-top: 3.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 2.4rem;
+}
+
+.cardWhyChooseUs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cardWhyChooseUs img {
+  width: 7.6rem;
+  height: 7.6rem;
+  border-radius: 100%;
+}
+
+.cardWhyChooseUs p {
+  width: 19.0rem;
+}
+
+.howItWorksContainer {
+  padding: 3.2rem;
+}
+
+.howItWorksContainer h2 {
+  text-align: center;
+}
+
+.cardsHowItWorks {
+  margin-top: 3.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3.2rem;
+}
+
+.cardHowItWorks {
+  text-align: center;
+  width: 24.0rem;
+  margin: 0 auto;
+
+}
+
+.cardHowItWorks img {
+  width: 22.0rem;
+}
+
+.cardHowItWorks h3 {
+  margin-top: 1.2rem;
+  line-height: 160%;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3.2rem;
+  background: lightgrey;
+}
+
+article.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 9.6rem;
+}
+
+.container section {
+  width: 12.0rem;
+}
+
+footer aside {
+  padding: 3.2rem;
+  text-align: center;
+}
+
+footer h3 {
+  font-size: 2.4rem;
+  margin: 2.4rem 0;
+}
