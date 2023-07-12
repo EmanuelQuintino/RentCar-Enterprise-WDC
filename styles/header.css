@@ -1,0 +1,31 @@
+header {
+  background: lightgray;
+  padding: 2.4rem 2.4rem 0;
+}
+
+.boxMenu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.6rem;
+  list-style: none;
+}
+
+.ContainerLogo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 3.2rem;
+}
+
+.boxLogo {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}

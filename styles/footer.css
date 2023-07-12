@@ -1,0 +1,29 @@
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3.2rem;
+  background: lightgrey;
+}
+
+article.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 9.6rem;
+}
+
+.container section {
+  width: 12.0rem;
+}
+
+footer aside {
+  padding: 3.2rem;
+  text-align: center;
+}
+
+footer h3 {
+  font-size: 2.4rem;
+  margin: 2.4rem 0;
+}
