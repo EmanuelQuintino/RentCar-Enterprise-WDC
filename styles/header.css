@@ -4,13 +4,14 @@ header {
   background: linear-gradient(315deg, #2966c2, #2865c2, #1e4b8f);
   color: white;
   position: relative;
+  z-index: 1;
   overflow: hidden;
 }
 
 .circle {
   border-radius: 100%;
   position: absolute;
-  background: #fff1;
+  background: #fff2;
 }
 
 .circle:nth-child(1) {
@@ -25,6 +26,18 @@ header {
   width: 26rem;
   bottom: -3rem;
   right: -8rem;
+}
+
+.wheelIcon img {
+  width: 90rem;
+  height: 90rem;
+  filter: invert(100%) blur(10px);
+  opacity: 0.05;
+  animation: rotate 15s linear infinite;
+  position: absolute;
+  bottom: -3rem;
+  right: -10rem;
+  z-index: -1;
 }
 
 .boxMenu {
@@ -134,6 +147,14 @@ nav a:hover {
     right: -10rem;
   }
 
+  .wheelIcon img {
+    width: 140rem;
+    height: 140rem;
+    animation: rotate 17s linear infinite;
+    bottom: -3rem;
+    right: -8rem;
+  }
+
   .boxMenu {
     border-bottom: 1.25px solid #fff4;
   }
@@ -193,6 +214,14 @@ nav a:hover {
     width: 48rem;
     bottom: -10rem;
     right: -10rem;
+  }
+
+  .wheelIcon img {
+    width: 190rem;
+    height: 190rem;
+    animation: rotate 20s linear infinite;
+    bottom: -3rem;
+    right: -8rem;
   }
 
   .boxMenu {
