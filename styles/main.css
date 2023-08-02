@@ -16,11 +16,11 @@
 }
 
 .cardOurServices {
-  width: 24.0rem;
+  width: 24rem;
 }
 
 .cardOurServices img {
-  width: 24.0rem;
+  width: 24rem;
 }
 
 .whyChooseUsContainer {
@@ -29,6 +29,10 @@
   justify-content: space-between;
   background: lightgrey;
   padding: 3.2rem;
+}
+
+.imageSalesPerson {
+  width: 42rem;
 }
 
 .boxWhyChooseUs {
@@ -66,7 +70,7 @@
 }
 
 .cardWhyChooseUs p {
-  width: 19.0rem;
+  width: 19rem;
 }
 
 .howItWorksContainer {
@@ -87,13 +91,12 @@
 
 .cardHowItWorks {
   text-align: center;
-  width: 24.0rem;
+  width: 24rem;
   margin: 0 auto;
-
 }
 
 .cardHowItWorks img {
-  width: 22.0rem;
+  width: 22rem;
 }
 
 .cardHowItWorks h3 {

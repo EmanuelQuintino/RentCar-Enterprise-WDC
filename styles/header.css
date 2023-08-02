@@ -29,3 +29,7 @@ nav ul {
   flex-direction: column;
   gap: 1.6rem;
 }
+
+.imageSaleswoman img {
+  width: 28rem;
+}
