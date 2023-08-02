@@ -3,6 +3,28 @@ header {
   padding: 1.6rem 1.6rem 0;
   background: linear-gradient(315deg, #2966c2, #2865c2, #1e4b8f);
   color: white;
+  position: relative;
+  overflow: hidden;
+}
+
+.circle {
+  border-radius: 100%;
+  position: absolute;
+  background: #fff1;
+}
+
+.circle:nth-child(1) {
+  height: 12rem;
+  width: 12rem;
+  bottom: -10%;
+  right: 11rem;
+}
+
+.circle:nth-child(2) {
+  height: 26rem;
+  width: 26rem;
+  bottom: -3rem;
+  right: -8rem;
 }
 
 .boxMenu {
@@ -89,15 +111,31 @@ nav a:hover {
 .boxImageSaleswoman img {
   width: 14rem;
   animation: slideRightLeft 1s;
+  position: relative;
+  z-index: 1;
 }
 
 @media (min-width: 768px) {
-  .boxMenu {
-    border-bottom: 1.25px solid #fff4;
-  }
-
   header {
     padding: 2.4rem 2.4rem 0;
+  }
+
+  .circle:nth-child(1) {
+    height: 18rem;
+    width: 18rem;
+    bottom: -15%;
+    right: 15rem;
+  }
+
+  .circle:nth-child(2) {
+    height: 34rem;
+    width: 34rem;
+    bottom: -5rem;
+    right: -10rem;
+  }
+
+  .boxMenu {
+    border-bottom: 1.25px solid #fff4;
   }
 
   .imageLogo {
@@ -143,6 +181,20 @@ nav a:hover {
 }
 
 @media (min-width: 1024px) {
+  .circle:nth-child(1) {
+    height: 24rem;
+    width: 24rem;
+    bottom: -20%;
+    right: 25rem;
+  }
+
+  .circle:nth-child(2) {
+    height: 48rem;
+    width: 48rem;
+    bottom: -10rem;
+    right: -10rem;
+  }
+
   .boxMenu {
     border-bottom: 1.5px solid #fff4;
   }
