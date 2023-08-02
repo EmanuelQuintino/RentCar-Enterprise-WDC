@@ -92,6 +92,10 @@ nav a:hover {
 }
 
 @media (min-width: 768px) {
+  .boxMenu {
+    border-bottom: 1.25px solid #fff4;
+  }
+
   header {
     padding: 2.4rem 2.4rem 0;
   }
@@ -139,6 +143,10 @@ nav a:hover {
 }
 
 @media (min-width: 1024px) {
+  .boxMenu {
+    border-bottom: 1.5px solid #fff4;
+  }
+
   .imageLogo {
     width: 7.2rem;
   }
