@@ -10,6 +10,7 @@ header {
   align-items: center;
   justify-content: space-between;
   border-bottom: 1px solid #fff4;
+  animation: slideTopDown 1s;
 }
 
 .imageLogo {
@@ -54,11 +55,15 @@ nav a:hover {
   font-size: 2rem;
   font-weight: 500;
   text-shadow: 1px 1px 2px #0002;
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typing 3s 1s steps(25) both;
 }
 
 .boxSlogan p {
   font-size: 1.2rem;
   text-shadow: 1px 1px 2px #0002;
+  animation: fadeIn 1s;
 }
 
 .boxSlogan button {
@@ -72,6 +77,7 @@ nav a:hover {
   text-shadow: 1px 1px 1px #0004;
   box-shadow: 1px 1px 2px #0002;
   transition: filter 200ms, scale 200ms;
+  animation: pulse 1s 3.6s;
 }
 
 .boxSlogan button:hover {
@@ -82,6 +88,7 @@ nav a:hover {
 
 .boxImageSaleswoman img {
   width: 14rem;
+  animation: slideRightLeft 1s;
 }
 
 @media (min-width: 768px) {
@@ -112,6 +119,7 @@ nav a:hover {
 
   .boxSlogan h1 {
     font-size: 2.4rem;
+    animation: typing 4s 1s steps(35) both;
   }
 
   .boxSlogan p {
@@ -122,6 +130,7 @@ nav a:hover {
     padding: 0.8rem;
     width: 14rem;
     font-size: 1.6rem;
+    animation: pulse 1s 3.1s;
   }
 
   .boxImageSaleswoman img {
@@ -153,6 +162,7 @@ nav a:hover {
 
   .boxSlogan h1 {
     font-size: 3.2rem;
+    animation: typing 5s 1s steps(35) both;
   }
 
   .boxSlogan p {
@@ -163,6 +173,7 @@ nav a:hover {
     padding: 1rem;
     width: 18rem;
     font-size: 2rem;
+    animation: pulse 1s 3.5s;
   }
 
   .boxImageSaleswoman img {
