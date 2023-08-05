@@ -1,13 +1,11 @@
 footer {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  text-align: center;
   padding: 3.2rem;
   background: linear-gradient(315deg, #2966c2, #2865c2, #1e4b8f);
   color: white;
 }
 
-article.container {
+.container article {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -15,7 +13,7 @@ article.container {
   gap: 9.6rem;
 }
 
-.container section {
+.container article section {
   width: 12rem;
 }
 

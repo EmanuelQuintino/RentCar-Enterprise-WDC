@@ -48,8 +48,8 @@ header {
   animation: slideTopDown 1s;
 }
 
-.imageLogo {
-  width: 4.2rem;
+.imageLogo img {
+  width: 9.6rem;
 }
 
 nav ul {
