@@ -1,5 +1,5 @@
 .ourServicesContainer {
-  padding: 3.2rem;
+  padding: 4.2rem;
 }
 
 .ourServicesContainer h2 {
@@ -9,7 +9,7 @@
 .cardsOurServices {
   margin-top: 3.2rem;
   display: flex;
-  align-items: center;
+  align-items: start;
   justify-content: center;
   flex-wrap: wrap;
   gap: 4.8rem;
@@ -19,8 +19,27 @@
   width: 24rem;
 }
 
+.cardOurServices .imageBox {
+  border-radius: 0.8rem 0.8rem 0 0;
+  padding: 1.2rem;
+  background: linear-gradient(315deg, #dbefff, #f5fafe, #d1d8e8);
+}
+
+.cardOurServices .textBox {
+  text-align: justify;
+}
+
 .cardOurServices img {
-  width: 24rem;
+  width: 100%;
+  transition: scale 300ms;
+}
+
+.cardOurServices img:hover {
+  scale: 1.05;
+}
+
+.cardOurServices h3 {
+  margin: 1.2rem 0;
 }
 
 .whyChooseUsContainer {
@@ -28,7 +47,7 @@
   align-items: center;
   justify-content: space-between;
   background: linear-gradient(315deg, #dbefff, #f5fafe, #d1d8e8);
-  padding: 3.2rem;
+  padding: 0 4.2rem;
 }
 
 .imageSalesPerson {
