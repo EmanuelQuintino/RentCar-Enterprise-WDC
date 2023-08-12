@@ -1,6 +1,6 @@
 footer {
   text-align: center;
-  padding: 3.2rem;
+  padding: 2.4rem;
   background: linear-gradient(315deg, #2966c2, #2865c2, #1e4b8f);
   color: white;
 }
@@ -25,4 +25,8 @@ footer aside {
 footer h3 {
   font-size: 2.4rem;
   margin: 2.4rem 0;
+}
+
+aside iframe {
+  width: 100%;
 }
