@@ -1,5 +1,5 @@
 .ourServicesContainer {
-  padding: 2.4rem;
+  padding: 2.4rem 0;
 }
 
 .ourServicesContainer h2 {
@@ -8,21 +8,33 @@
 }
 
 .cardsOurServices {
-  margin-top: 2.4rem;
+  margin-top: 2.2rem;
+  padding-left: 2.4rem;
   display: flex;
   align-items: start;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 3.2rem;
+  gap: 2.4rem;
+  overflow-x: auto;
+  scrollbar-width: none;
+  scroll-snap-type: x mandatory;
+}
+
+.cardsOurServices::-webkit-scrollbar {
+  display: none;
 }
 
 .cardOurServices {
-  max-width: 32rem;
+  width: 32rem;
+  scroll-snap-align: center;
+}
+
+.cardOurServices:last-child {
+  margin-right: 2.4rem;
 }
 
 .cardOurServices .imageBox {
+  width: 22rem;
   border-radius: 0.8rem 0.8rem 0 0;
-  padding: 0.4rem 5.6rem 1.6rem;
+  padding: 0.4rem 3.2rem 1.2rem;
   background: linear-gradient(315deg, #dbefff, #f5fafe, #d1d8e8);
 }
 
@@ -102,44 +114,44 @@
 }
 
 .howItWorksContainer {
-  padding: 3.2rem 0 3.2rem 2.4rem;
+  padding: 3.2rem 2.4rem;
 }
 
 .howItWorksContainer h2 {
   text-align: center;
+  font-size: 2rem;
 }
 
 .cardsHowItWorks {
   margin-top: 3.2rem;
   display: flex;
-  align-items: start;
+  flex-direction: column;
+  align-items: center;
   gap: 2.4rem;
-  overflow-x: auto;
-  scroll-snap-type: x mandatory;
-  scrollbar-width: none;
-}
-
-.cardsHowItWorks::-webkit-scrollbar {
-  display: none;
 }
 
 .cardHowItWorks {
-  text-align: justify;
   width: 24rem;
   margin: 0 auto;
-  scroll-snap-align: center;
+  text-align: justify;
 }
 
-.cardHowItWorks:last-child {
-  margin-right: 2.4rem;
+.cardHowItWorks + .cardHowItWorks {
+  border-top: 1px solid #d1d8e8;
+  padding-top: 2.4rem;
 }
 
 .cardHowItWorks img {
-  width: 22rem;
+  width: 100%;
 }
 
 .cardHowItWorks h3 {
   line-height: 160%;
+  font-size: 1.6rem;
+}
+
+.cardHowItWorks p {
+  font-size: 1.4rem;
 }
 
 @media (min-width: 768px) {
