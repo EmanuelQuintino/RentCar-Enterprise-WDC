@@ -34,7 +34,7 @@
 .cardOurServices .imageBox {
   width: 22rem;
   border-radius: 0.8rem 0.8rem 0 0;
-  padding: 0.4rem 3.2rem 1.2rem;
+  padding: 0.4rem 4.2rem 1.2rem;
   background: linear-gradient(315deg, #dbefff, #f5fafe, #d1d8e8);
 }
 
@@ -52,7 +52,7 @@
 }
 
 .cardOurServices h3 {
-  margin: 1.2rem 0;
+  margin: 1.2rem 0 0.4rem;
   font-size: 1.6rem;
 }
 
