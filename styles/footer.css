@@ -10,23 +10,117 @@ footer {
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 9.6rem;
-}
-
-.container article section {
-  width: 12rem;
-}
-
-footer aside {
-  padding: 3.2rem;
-  text-align: center;
+  gap: 5.6rem;
 }
 
 footer h3 {
-  font-size: 2.4rem;
-  margin: 2.4rem 0;
+  font-size: 2rem;
+  margin-top: 1.6rem;
+  text-shadow: 1px 1px 1px #0004;
 }
 
-aside iframe {
+.subscribe h3 {
+  margin-top: 2.4rem;
+}
+
+.subscribe p {
+  margin-top: 1.6rem;
+  font-size: 1.4rem;
+}
+
+.subscribe form {
+  margin-top: 2.4rem;
+  font-size: 1.4rem;
   width: 100%;
+  display: flex;
+  gap: 0.8rem;
+}
+
+.subscribe form input[type="email"] {
+  font-size: 1.4rem;
+  padding: 0.8rem;
+  border-radius: 0.4rem;
+  border: none;
+  flex: 1;
+}
+
+.subscribe form button {
+  background: linear-gradient(#ffc44f, #cc9d3f);
+  color: white;
+  padding: 0.8rem;
+  border-radius: 0.4rem;
+  width: 10rem;
+  font-weight: 500;
+  font-size: 1.4rem;
+  text-shadow: 1px 1px 1px #0004;
+  transition: filter 200ms, scale 200ms;
+}
+
+.subscribe form button:hover {
+  cursor: pointer;
+  filter: brightness(1.05);
+}
+
+.contacts {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.contacts h3 {
+  margin-bottom: 0.8rem;
+}
+
+.contacts .contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.8rem;
+}
+
+.contacts p {
+  border-bottom: 1px solid white;
+  font-size: 1.4rem;
+}
+
+.socialMedias {
+  display: flex;
+  align-items: center;
+  gap: 3.2rem;
+}
+
+.socialMedias a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.8rem;
+  color: white;
+  font-size: 1.4rem;
+}
+
+.socialMedias .logo {
+  max-width: 1.8rem;
+}
+
+.socialMedias .logo img {
+  width: 100%;
+}
+
+.local iframe {
+  margin-top: 1.6rem;
+}
+
+.local p {
+  font-size: 1.4rem;
+}
+
+footer .copyright {
+  font-size: 1.6rem;
+  margin-top: 5.6rem;
+  background: #fff2;
+  border-radius: 0.8rem;
+  padding: 1.6rem;
+  text-shadow: 1px 1px 1px #0004;
 }
