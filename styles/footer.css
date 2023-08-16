@@ -23,6 +23,10 @@ footer h3 {
   text-shadow: 1px 1px 1px #0004;
 }
 
+.subscribe {
+  padding: 0 2.4rem;
+}
+
 .subscribe h3 {
   margin-top: 2.4rem;
   font-size: 2rem;
