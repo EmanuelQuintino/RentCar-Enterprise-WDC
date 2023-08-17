@@ -75,20 +75,13 @@ footer h3 {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  gap: 0.8rem;
+  gap: 1.6rem;
   width: 100%;
+  padding: 2.4rem 0 0;
 }
 
 .contacts h3 {
   margin-bottom: 0.8rem;
-}
-
-.contacts {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 1.6rem;
-  padding: 2.4rem 0 0;
 }
 
 .contacts p {
@@ -133,16 +126,6 @@ footer h3 {
   margin-top: 0.8rem;
 }
 
-.copyright {
-  font-size: 1.6rem;
-  margin-top: 3.2rem;
-  background: #fff2;
-  border-radius: 0.8rem;
-  padding: 1.6rem;
-  text-shadow: 1px 1px 1px #0004;
-  display: block;
-}
-
 .help {
   display: flex;
   align-items: center;
@@ -154,4 +137,14 @@ footer h3 {
 .help a {
   color: white;
   border-bottom: 1px solid #fff8;
+}
+
+.copyright {
+  font-size: 1.6rem;
+  margin-top: 3.2rem;
+  background: #fff2;
+  border-radius: 0.8rem;
+  padding: 1.6rem;
+  text-shadow: 1px 1px 1px #0004;
+  display: block;
 }

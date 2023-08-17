@@ -67,6 +67,7 @@ nav ul {
 nav a {
   color: white;
   font-size: clamp(0.9rem, 2.5vw, 2rem);
+  white-space: nowrap;
   text-shadow: 1px 1px 2px #0002;
   padding: 0.8rem;
   border-radius: 0.8rem;
