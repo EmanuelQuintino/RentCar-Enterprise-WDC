@@ -139,7 +139,7 @@ footer h3 {
   border-bottom: 1px solid #fff8;
 }
 
-.copyright {
+.copyright a {
   font-size: 1.6rem;
   margin-top: 3.2rem;
   background: #fff2;
