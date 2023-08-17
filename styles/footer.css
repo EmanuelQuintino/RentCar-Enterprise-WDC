@@ -141,3 +141,16 @@ footer h3 {
   text-shadow: 1px 1px 1px #0004;
   display: block;
 }
+
+.help {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2.4rem;
+  font-size: 1.2rem;
+}
+
+.help a {
+  color: white;
+  border-bottom: 1px solid #fff8;
+}
