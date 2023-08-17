@@ -46,6 +46,8 @@ header {
   justify-content: space-between;
   border-bottom: 1px solid #fff4;
   animation: slideTopDown 1s;
+  position: sticky;
+  top: 0;
 }
 
 .imageLogo {
@@ -59,13 +61,12 @@ header {
 nav ul {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  gap: 0.4rem;
+  justify-content: center;
 }
 
 nav a {
   color: white;
-  font-size: 1.2rem;
+  font-size: clamp(0.9rem, 2.5vw, 2rem);
   text-shadow: 1px 1px 2px #0002;
   padding: 0.8rem;
   border-radius: 0.8rem;
@@ -171,10 +172,6 @@ nav a:hover {
     gap: 1.6rem;
   }
 
-  nav a {
-    font-size: 1.6rem;
-  }
-
   .ContainerSlogan {
     margin-top: 1.6rem;
   }
@@ -238,10 +235,6 @@ nav a:hover {
 
   nav ul {
     gap: 2rem;
-  }
-
-  nav a {
-    font-size: 2rem;
   }
 
   .ContainerSlogan {
