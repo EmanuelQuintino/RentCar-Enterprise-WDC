@@ -13,7 +13,7 @@ footer {
   gap: 5.6rem;
 }
 
-section + section {
+footer section + section {
   border-top: 1px solid #fff4;
 }
 
@@ -139,4 +139,5 @@ footer h3 {
   border-radius: 0.8rem;
   padding: 1.6rem;
   text-shadow: 1px 1px 1px #0004;
+  display: block;
 }
