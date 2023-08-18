@@ -15,6 +15,12 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./styles/index.css" />
+
+    <script>
+      function messageSubscribe() {
+        alert("Obrigado por se inscrever em nossa página!");
+      }
+    </script>
   </head>
 
   <body>
@@ -61,7 +67,12 @@
               <strong>RentCar Enterprise</strong> a sua parceira de confiança em
               aluguel de carros.
             </p>
-            <button>Contate-nos</button>
+            <a
+              href="https://emanuelquintino.github.io/Page-WDC/"
+              target="_blank"
+            >
+              <button>Contate-nos</button>
+            </a>
           </div>
 
           <div class="boxImageSaleswoman">
@@ -218,7 +229,7 @@
             </p>
             <form>
               <input type="email" placeholder="Digite seu email" name="email" />
-              <button>Subscrever</button>
+              <button onclick="{messageSubscribe()}">Inscrever-se</button>
             </form>
           </section>
 
@@ -269,7 +280,7 @@
       <div class="help">
         <a href="#">ajuda</a>
         <a href="#">termos e condições</a>
-        <a href="#home">início</a>
+        <a href="#">início</a>
       </div>
 
       <div class="copyright">
