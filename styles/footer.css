@@ -48,7 +48,7 @@ footer h3 {
 .subscribe form input[type="email"] {
   font-size: 1.4rem;
   padding: 0.8rem;
-  border-radius: 0.4rem;
+  border-radius: 0.8rem;
   border: none;
   flex: 1;
 }
@@ -57,7 +57,7 @@ footer h3 {
   background: linear-gradient(#ffc44f, #cc9d3f);
   color: white;
   padding: 0.8rem;
-  border-radius: 0.4rem;
+  border-radius: 0.8rem;
   width: 10rem;
   font-weight: 500;
   font-size: 1.4rem;
@@ -231,6 +231,7 @@ footer h3 {
 
   .local iframe {
     margin-top: 1.8rem;
+    height: 28rem;
   }
 
   .local p {
@@ -335,6 +336,7 @@ footer h3 {
 
   .local iframe {
     margin-top: 2rem;
+    height: 32rem;
   }
 
   .local p {
