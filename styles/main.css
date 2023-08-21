@@ -75,9 +75,7 @@
 .imageSalesPerson .circle {
   border-radius: 100%;
   position: absolute;
-  background: #00d2;
   background: linear-gradient(135deg, #2966c222, #2865c222, #1e4b8f22);
-
   z-index: -1;
 }
 
