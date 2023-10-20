@@ -9,9 +9,9 @@ header {
 }
 
 .circle {
+  background: #fff2;
   border-radius: 100%;
   position: absolute;
-  background: #fff2;
 }
 
 .circle:nth-child(1) {
@@ -110,11 +110,11 @@ nav a:hover {
 .boxSlogan button {
   background: linear-gradient(#ffc44f, #cc9d3f);
   color: white;
+  font-size: 1.2rem;
+  font-weight: 700;
   padding: 0.6rem;
   border-radius: 1.2rem;
   width: 10rem;
-  font-weight: 700;
-  font-size: 1.2rem;
   text-shadow: 1px 1px 1px #0004;
   box-shadow: 1px 1px 2px #0002;
   transition: filter 200ms, scale 200ms;
@@ -129,9 +129,9 @@ nav a:hover {
 
 .boxImageSaleswoman img {
   width: 14rem;
-  animation: slideRightLeft 1s;
   position: relative;
   z-index: 1;
+  animation: slideRightLeft 1s;
 }
 
 @media (min-width: 768px) {
