@@ -1,31 +1,10 @@
-@keyframes fadeIn {
+@keyframes rotate {
   from {
-    opacity: 0;
+    transform: rotate(0deg);
   }
 
   to {
-    opacity: 1;
-  }
-}
-
-@keyframes typing {
-  from {
-    width: 0;
-  }
-  to {
-    width: 100%;
-  }
-}
-
-@keyframes slideRightLeft {
-  from {
-    opacity: 0;
-    transform: translateX(110%);
-  }
-
-  to {
-    opacity: 1;
-    transform: translateX(0);
+    transform: rotate(360deg);
   }
 }
 
@@ -37,7 +16,26 @@
 
   to {
     opacity: 1;
-    transform: translateY(0);
+    transform: translateY(0%);
+  }
+}
+
+@keyframes typing {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
   }
 }
 
@@ -55,12 +53,14 @@
   }
 }
 
-@keyframes rotate {
+@keyframes slideRightLeft {
   from {
-    transform: rotate(0deg);
+    opacity: 0;
+    transform: translateX(110%);
   }
 
   to {
-    transform: rotate(360deg);
+    opacity: 1;
+    transform: translateX(0);
   }
 }
