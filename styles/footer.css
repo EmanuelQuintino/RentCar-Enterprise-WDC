@@ -1,7 +1,7 @@
 footer {
+  background: linear-gradient(135deg, #2966c2, #2865c2, #1e4b8f);
   text-align: center;
   padding: 2.4rem;
-  background: linear-gradient(135deg, #2966c2, #2865c2, #1e4b8f);
   color: white;
 }
 
@@ -62,7 +62,7 @@ footer h3 {
   font-weight: 500;
   font-size: 1.4rem;
   text-shadow: 1px 1px 1px #0004;
-  transition: filter 200ms, scale 200ms;
+  transition: filter 200ms;
 }
 
 .subscribe form button:hover {
@@ -123,6 +123,7 @@ footer h3 {
 
 .local iframe {
   width: 100%;
+  height: 24rem;
   margin-top: 1.6rem;
 }
 
@@ -279,19 +280,15 @@ footer h3 {
   }
 
   .subscribe h3 {
-    margin-top: 3.2rem;
     font-size: 3.2rem;
   }
 
   .subscribe p {
-    margin-top: 2rem;
     font-size: 1.8rem;
   }
 
   .subscribe form {
-    margin-top: 3.2rem;
     font-size: 1.8rem;
-    gap: 1.2rem;
   }
 
   .subscribe form input[type="email"] {
@@ -303,11 +300,6 @@ footer h3 {
     padding: 1.6rem;
     width: 16rem;
     font-size: 1.8rem;
-  }
-
-  .contacts {
-    gap: 1.8rem;
-    padding: 3.2rem 0 0;
   }
 
   .contacts h3 {
@@ -322,12 +314,7 @@ footer h3 {
     font-size: 1.8rem;
   }
 
-  .socialMedias {
-    gap: 4.2rem;
-  }
-
   .socialMedias a {
-    gap: 1.2rem;
     font-size: 2rem;
   }
 
@@ -350,7 +337,6 @@ footer h3 {
   }
 
   .help {
-    gap: 3.2rem;
     font-size: 1.8rem;
   }
 
