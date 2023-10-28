@@ -24,7 +24,7 @@
   </head>
 
   <body>
-    <header id="home">
+    <header>
       <div class="circle circle1"></div>
       <div class="circle circle2"></div>
 
@@ -34,7 +34,7 @@
 
       <article>
         <section class="boxMenu">
-          <a href="#home" class="imageLogo">
+          <a href="" class="imageLogo">
             <img src="./images/logo-rent-car.png" alt="logo" />
           </a>
 
@@ -210,9 +210,9 @@
               Nossa equipe está comprometida em fornecer conteúdo valioso e envolvente
               para enriquecer sua experiência.
             </p>
-            <form>
-              <input type="email" name="email" placeholder="Digite seu email" />
-              <button type="submit" onclick="{messageSubscribe()}">Inscrever-se</button>
+            <form onsubmit="{messageSubscribe()}">
+              <input type="email" name="email" placeholder="Digite seu email" required />
+              <button type="submit">Inscrever-se</button>
             </form>
           </section>
 
