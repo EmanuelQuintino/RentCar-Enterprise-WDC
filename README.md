@@ -2,18 +2,20 @@
 
 ![RentCar Enterprise](./images/project-layout.png)
 
-Este projeto foi desenvolvido na conclusão dos módulos de HTML e CSS do curso de [Desenvolvimento Web](https://emanuelquintino.github.io/Page-WDC/). A landing page é dedicada a uma empresa fictícia de aluguel de carros, fornecendo informações básicas sobre os serviços oferecidos.
+This project was developed in the conclusion of the HTML and CSS modules of the [Web Development Course](https://emanuelquintino.github.io/Page-WDC/). The landing page is dedicated to a fictitious car rental company, providing basic information about the services offered.
 
-## Tecnologias Utilizadas
+## Technologies
 
 - HTML
-  - Semântica
-  - Formulários
-  - Multimídia
+
+  - Semantics
+  - Multimedia
+  - Forms
+
 - CSS
   - Mobile-First
-  - Responsividade
-  - Animações
+  - Responsiveness
+  - Animations
 
 ## Links
 
