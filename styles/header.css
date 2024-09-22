@@ -95,6 +95,7 @@ nav a:hover {
 .boxSlogan h1 {
   font-size: 2rem;
   font-weight: 500;
+  width: 100%;
   text-shadow: 1px 1px 2px #0002;
   animation: typing 3s 1s steps(25) both;
   white-space: nowrap;

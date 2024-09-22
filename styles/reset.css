@@ -16,6 +16,7 @@ select,
 textarea {
   font-size: 1.6rem;
   font-family: "Roboto", sans-serif;
+  font-display: swap;
 }
 
 ul {
