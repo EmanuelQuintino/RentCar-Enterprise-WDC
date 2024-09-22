@@ -1,6 +1,6 @@
 # RentCar Enterprise
 
-![RentCar Enterprise](./images/rentcar-enterprise-background.png)
+![RentCar Enterprise](./images/project-layout.png)
 
 Este projeto foi desenvolvido na conclusão dos módulos de HTML e CSS do curso de [Desenvolvimento Web](https://emanuelquintino.github.io/Page-WDC/). A landing page é dedicada a uma empresa fictícia de aluguel de carros, fornecendo informações básicas sobre os serviços oferecidos.
 
