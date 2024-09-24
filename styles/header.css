@@ -52,29 +52,29 @@ header {
 
 .imageLogo {
   width: 4.8rem;
-}
 
-.imageLogo img {
-  width: 100%;
+  & img {
+    width: 100%;
+  }
 }
 
 nav ul {
   display: flex;
   align-items: center;
   justify-content: center;
-}
 
-nav a {
-  color: white;
-  font-size: clamp(0.9rem, 2.5vw, 2rem);
-  white-space: nowrap;
-  text-shadow: 1px 1px 2px #0002;
-  padding: 0.8rem;
-  border-radius: 0.8rem;
-}
+  & a {
+    color: white;
+    font-size: clamp(0.9rem, 2.5vw, 2rem);
+    white-space: nowrap;
+    text-shadow: 1px 1px 2px #0002;
+    padding: 0.8rem;
+    border-radius: 0.8rem;
 
-nav a:hover {
-  background: #fff2;
+    &:hover {
+      background: #fff2;
+    }
+  }
 }
 
 .containerSlogan {
@@ -90,42 +90,42 @@ nav a:hover {
   flex-direction: column;
   flex: 1;
   gap: 1.6rem;
-}
 
-.boxSlogan h1 {
-  font-size: 2rem;
-  font-weight: 500;
-  width: 100%;
-  text-shadow: 1px 1px 2px #0002;
-  animation: typing 3s 1s steps(25) both;
-  white-space: nowrap;
-  overflow: hidden;
-}
+  & h1 {
+    font-size: 2rem;
+    font-weight: 500;
+    width: 100%;
+    text-shadow: 1px 1px 2px #0002;
+    animation: typing 3s 1s steps(25) both;
+    white-space: nowrap;
+    overflow: hidden;
+  }
 
-.boxSlogan p {
-  font-size: 1.2rem;
-  text-shadow: 1px 1px 2px #0002;
-  animation: fadeIn 1s;
-}
+  & p {
+    font-size: 1.2rem;
+    text-shadow: 1px 1px 2px #0002;
+    animation: fadeIn 1s;
+  }
 
-.boxSlogan button {
-  background: linear-gradient(#ffc44f, #cc9d3f);
-  color: white;
-  font-size: 1.2rem;
-  font-weight: 700;
-  padding: 0.6rem;
-  border-radius: 1.2rem;
-  width: 10rem;
-  text-shadow: 1px 1px 1px #0004;
-  box-shadow: 1px 1px 2px #0002;
-  transition: filter 200ms, scale 200ms;
-  animation: pulse 1s 3.6s;
-}
+  & button {
+    background: linear-gradient(#ffc44f, #cc9d3f);
+    color: white;
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 0.6rem;
+    border-radius: 0.8rem;
+    width: 10rem;
+    text-shadow: 1px 1px 1px #0004;
+    box-shadow: 1px 1px 2px #0002;
+    transition: filter 200ms, scale 200ms;
+    animation: pulse 1s 3.6s;
+  }
 
-.boxSlogan button:hover {
-  cursor: pointer;
-  filter: brightness(1.05);
-  scale: 1.01;
+  & button:hover {
+    cursor: pointer;
+    filter: brightness(1.05);
+    scale: 1.01;
+  }
 }
 
 .boxImageSaleswoman img {
@@ -181,22 +181,23 @@ nav a:hover {
   .boxSlogan {
     max-width: 48rem;
     gap: 2rem;
-  }
 
-  .boxSlogan h1 {
-    font-size: 2.4rem;
-    animation: typing 4s 1s steps(35) both;
-  }
+    & h1 {
+      font-size: 2.4rem;
+      animation: typing 4s 1s steps(35) both;
+    }
 
-  .boxSlogan p {
-    font-size: 1.6rem;
-  }
+    & p {
+      font-size: 1.6rem;
+    }
 
-  .boxSlogan button {
-    padding: 0.8rem;
-    width: 14rem;
-    font-size: 1.6rem;
-    animation: pulse 1s 3.1s;
+    & button {
+      padding: 0.8rem;
+      width: 14rem;
+      font-size: 1.6rem;
+      border-radius: 1.2rem;
+      animation: pulse 1s 3.1s;
+    }
   }
 
   .boxImageSaleswoman img {
@@ -246,22 +247,22 @@ nav a:hover {
   .boxSlogan {
     max-width: 64rem;
     gap: 2.4rem;
-  }
 
-  .boxSlogan h1 {
-    font-size: 3.2rem;
-    animation: typing 5s 1s steps(35) both;
-  }
+    & h1 {
+      font-size: 3.2rem;
+      animation: typing 5s 1s steps(35) both;
+    }
 
-  .boxSlogan p {
-    font-size: 2rem;
-  }
+    & p {
+      font-size: 2rem;
+    }
 
-  .boxSlogan button {
-    padding: 1rem;
-    width: 18rem;
-    font-size: 2rem;
-    animation: pulse 1s 3.5s;
+    & button {
+      padding: 1rem;
+      width: 18rem;
+      font-size: 2rem;
+      animation: pulse 1s 3.5s;
+    }
   }
 
   .boxImageSaleswoman img {
