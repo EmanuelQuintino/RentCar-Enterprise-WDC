@@ -12,6 +12,7 @@ header {
   background: #fff2;
   border-radius: 100%;
   position: absolute;
+  z-index: -1;
 }
 
 .circle:nth-child(1) {
@@ -31,13 +32,13 @@ header {
 .wheelIcon img {
   width: 90rem;
   height: 90rem;
-  filter: invert(100%) blur(10px);
-  opacity: 0.05;
-  animation: rotate 15s linear infinite;
   position: absolute;
   bottom: -3rem;
   right: -10rem;
   z-index: -1;
+  filter: invert(100%) blur(10px);
+  opacity: 0.05;
+  animation: rotate 15s linear infinite;
 }
 
 .boxMenu {
@@ -119,12 +120,12 @@ nav ul {
     box-shadow: 1px 1px 2px #0002;
     transition: filter 200ms, scale 200ms;
     animation: pulse 1s 3.6s;
-  }
 
-  & button:hover {
-    cursor: pointer;
-    filter: brightness(1.05);
-    scale: 1.01;
+    &:hover {
+      cursor: pointer;
+      filter: brightness(1.05);
+      scale: 1.01;
+    }
   }
 }
 
