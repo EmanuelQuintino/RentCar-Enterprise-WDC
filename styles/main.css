@@ -1,10 +1,10 @@
 .ourServicesContainer {
   padding: 2.4rem 0;
-}
 
-.ourServicesContainer h2 {
-  text-align: center;
-  font-size: 2rem;
+  & h2 {
+    text-align: center;
+    font-size: 2rem;
+  }
 }
 
 .cardsOurServices {
@@ -16,44 +16,44 @@
   scrollbar-width: none;
   scroll-snap-type: x mandatory;
   padding: 0 2.4rem;
-}
 
-.cardsOurServices::-webkit-scrollbar {
-  display: none;
+  &::-webkit-scrollbar {
+    display: none;
+  }
 }
 
 .cardOurServices {
   width: 22rem;
   scroll-snap-align: center;
-}
 
-.cardOurServices .imageBox {
-  background: linear-gradient(315deg, #dbefff, #f5fafe, #d1d8e8);
-  width: 22rem;
-  border-radius: 0.8rem 0.8rem 0 0;
-  padding: 0.4rem 4.2rem 1.2rem;
-}
+  & .imageBox {
+    background: linear-gradient(315deg, #dbefff, #f5fafe, #d1d8e8);
+    width: 22rem;
+    border-radius: 0.8rem 0.8rem 0 0;
+    padding: 0.4rem 4.2rem 1.2rem;
 
-.cardOurServices img {
-  width: 100%;
-  transition: scale 300ms;
-}
+    & img {
+      width: 100%;
+      transition: scale 300ms;
+    }
 
-.cardOurServices img:hover {
-  scale: 1.05;
-}
+    & img:hover {
+      scale: 1.05;
+    }
+  }
 
-.cardOurServices .textBox {
-  text-align: justify;
-}
+  & .textBox {
+    text-align: justify;
+  }
 
-.cardOurServices h3 {
-  margin: 1.2rem 0 0.4rem;
-  font-size: 1.6rem;
-}
+  & h3 {
+    margin: 1.2rem 0 0.4rem;
+    font-size: 1.6rem;
+  }
 
-.cardOurServices p {
-  font-size: 1.4rem;
+  & p {
+    font-size: 1.4rem;
+  }
 }
 
 .whyChooseUsContainer {
@@ -66,30 +66,30 @@
   margin: 0 auto;
   position: relative;
   z-index: 1;
-}
 
-.imageSalesPerson .circle {
-  background: linear-gradient(135deg, #2966c222, #2865c222, #1e4b8f22);
-  border-radius: 100%;
-  position: absolute;
-  height: 24rem;
-  width: 24rem;
-  top: 0rem;
-  left: -1rem;
-  z-index: -1;
-}
+  & .circle {
+    background: linear-gradient(135deg, #2966c222, #2865c222, #1e4b8f22);
+    border-radius: 100%;
+    position: absolute;
+    height: 24rem;
+    width: 24rem;
+    top: 0rem;
+    left: -1rem;
+    z-index: -1;
+  }
 
-.imageSalesPerson img {
-  width: 100%;
+  & img {
+    width: 100%;
+  }
 }
 
 .boxWhyChooseUs {
   margin: 1.6rem 0 0.8rem;
   text-align: center;
-}
 
-.boxWhyChooseUs h2 {
-  font-size: 2rem;
+  & h2 {
+    font-size: 2rem;
+  }
 }
 
 .cardsWhyChooseUs {
@@ -108,19 +108,19 @@
   justify-content: center;
   gap: 1.6rem;
   padding: 0 2.4rem;
-}
 
-.cardWhyChooseUs .boxImage {
-  width: 4.2rem;
-}
+  & .boxImage {
+    width: 4.2rem;
+  }
 
-.cardWhyChooseUs .boxImage img {
-  width: 100%;
-}
+  & .boxImage img {
+    width: 100%;
+  }
 
-.cardWhyChooseUs p {
-  text-align: left;
-  font-size: 1.4rem;
+  & p {
+    text-align: left;
+    font-size: 1.4rem;
+  }
 }
 
 .howItWorksContainer {
@@ -144,49 +144,48 @@
   width: 24rem;
   margin: 0 auto;
   text-align: justify;
-}
 
-.cardHowItWorks img {
-  width: 100%;
-}
+  & img {
+    width: 100%;
+  }
 
-.cardHowItWorks h3 {
-  line-height: 160%;
-  font-size: 1.6rem;
-}
+  & h3 {
+    line-height: 160%;
+    font-size: 1.6rem;
+  }
 
-.cardHowItWorks p {
-  font-size: 1.4rem;
+  & p {
+    font-size: 1.4rem;
+  }
 }
 
 @media (min-width: 768px) {
   .ourServicesContainer {
     padding: 3.2rem 0;
-  }
 
-  .ourServicesContainer h2 {
-    font-size: 2.4rem;
+    & h2 {
+      font-size: 2.4rem;
+    }
   }
 
   .cardsOurServices {
     margin-top: 2.4rem;
-    display: flex;
-    align-items: start;
     justify-content: center;
-    gap: 2.4rem;
   }
 
-  .cardOurServices .imageBox {
-    padding: 0.8rem 3.2rem 1.6rem;
-  }
+  .cardOurServices {
+    & .imageBox {
+      padding: 0.8rem 3.2rem 1.6rem;
+    }
 
-  .cardOurServices h3 {
-    margin: 1.4rem 0 0.6rem;
-    font-size: 1.8rem;
-  }
+    & h3 {
+      font-size: 1.8rem;
+      margin: 1.4rem 0 0.6rem;
+    }
 
-  .cardOurServices p {
-    font-size: 1.6rem;
+    & p {
+      font-size: 1.6rem;
+    }
   }
 
   .whyChooseUsContainer {
@@ -195,19 +194,19 @@
 
   .imageSalesPerson {
     max-width: 28rem;
-  }
 
-  .imageSalesPerson .circle:nth-child(1) {
-    height: 30.5rem;
-    width: 30.5rem;
+    & .circle {
+      height: 30.5rem;
+      width: 30.5rem;
+    }
   }
 
   .boxWhyChooseUs {
     margin: 1.8rem 0 1rem;
-  }
 
-  .boxWhyChooseUs h2 {
-    font-size: 2.4rem;
+    & h2 {
+      font-size: 2.4rem;
+    }
   }
 
   .cardsWhyChooseUs {
@@ -216,27 +215,22 @@
 
   .cardWhyChooseUs {
     gap: 1.8rem;
-  }
 
-  .cardWhyChooseUs .boxImage {
-    width: 4.2rem;
-  }
-
-  .cardWhyChooseUs p {
-    font-size: 1.6rem;
+    & p {
+      font-size: 1.6rem;
+    }
   }
 
   .howItWorksContainer {
     padding: 4.2rem 3.2rem;
-  }
 
-  .howItWorksContainer h2 {
-    font-size: 2.4rem;
+    & h2 {
+      font-size: 2.4rem;
+    }
   }
 
   .cardsHowItWorks {
     margin-top: 4.2rem;
-    display: flex;
     flex-direction: row;
     align-items: start;
     gap: 2.8rem;
@@ -244,73 +238,68 @@
 
   .cardHowItWorks {
     width: 28rem;
-  }
 
-  .cardHowItWorks h3 {
-    line-height: 160%;
-    font-size: 1.8rem;
-  }
+    & h3 {
+      font-size: 1.8rem;
+    }
 
-  .cardHowItWorks p {
-    font-size: 1.6rem;
+    & p {
+      font-size: 1.6rem;
+    }
   }
 }
 
 @media (min-width: 1024px) {
   .ourServicesContainer {
     padding: 4.2rem 0;
-  }
 
-  .ourServicesContainer h2 {
-    font-size: 3.2rem;
+    & h2 {
+      font-size: 3.2rem;
+    }
   }
 
   .cardsOurServices {
     margin-top: 3.2rem;
-    /* display: flex; */
-    /* align-items: start; */
-    /* justify-content: center; */
     gap: 4.2rem;
   }
 
   .cardOurServices {
     width: 28rem;
-  }
 
-  .cardOurServices .imageBox {
-    width: 28rem;
-    padding: 0.8rem 4.2rem 1.6rem;
-  }
+    & .imageBox {
+      width: 28rem;
+      padding: 0.8rem 4.2rem 1.6rem;
+    }
 
-  .cardOurServices h3 {
-    margin: 1.6rem 0 0.8rem;
-    font-size: 2rem;
-  }
+    & h3 {
+      margin: 1.6rem 0 0.8rem;
+      font-size: 2rem;
+    }
 
-  .cardOurServices p {
-    font-size: 1.8rem;
+    & p {
+      font-size: 1.8rem;
+    }
   }
 
   .whyChooseUsContainer {
-    padding: 4.2rem 3.2rem 3.2rem;
     display: flex;
   }
 
   .imageSalesPerson {
     max-width: 36rem;
-  }
 
-  .imageSalesPerson .circle:nth-child(1) {
-    height: 39rem;
-    width: 39rem;
+    & .circle {
+      height: 39rem;
+      width: 39rem;
+    }
   }
 
   .boxWhyChooseUs {
     margin: auto;
-  }
 
-  .boxWhyChooseUs h2 {
-    font-size: 3.2rem;
+    & h2 {
+      font-size: 3.2rem;
+    }
   }
 
   .cardsWhyChooseUs {
@@ -321,20 +310,22 @@
     gap: 2rem;
   }
 
-  .cardWhyChooseUs .boxImage {
-    width: 5.2rem;
-  }
+  .cardWhyChooseUs {
+    & .boxImage {
+      width: 5.2rem;
+    }
 
-  .cardWhyChooseUs p {
-    font-size: 1.8rem;
+    & p {
+      font-size: 1.8rem;
+    }
   }
 
   .howItWorksContainer {
     padding: 6.4rem 4.2rem;
-  }
 
-  .howItWorksContainer h2 {
-    font-size: 3.2rem;
+    & h2 {
+      font-size: 3.2rem;
+    }
   }
 
   .cardsHowItWorks {
@@ -343,13 +334,13 @@
 
   .cardHowItWorks {
     width: 32rem;
-  }
 
-  .cardHowItWorks h3 {
-    font-size: 2rem;
-  }
+    & h3 {
+      font-size: 2rem;
+    }
 
-  .cardHowItWorks p {
-    font-size: 1.8rem;
+    & p {
+      font-size: 1.8rem;
+    }
   }
 }
